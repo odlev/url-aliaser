@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Go File",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "debugAdapter": "dlv-dap",
+            "showLog": false,
+            "args": []  // Добавьте аргументы, если нужны
+        }
+    ]
+}
