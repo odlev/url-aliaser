@@ -1,5 +1,6 @@
 This is a back-end application for creating and following link aliases. Authentication is implemented via a jwt token. 
 Queries are created via json,
+  
 to get jwt token go to the address /login and in json format pass:
 "user": "user",
 "password": "secret_key"
